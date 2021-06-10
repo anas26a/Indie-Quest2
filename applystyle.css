@@ -1,0 +1,87 @@
+/* -------------------------------------------Generel style------------------------- */
+*{
+	font-family: Montserrat;
+
+	
+	background-size: 100%;
+  
+	
+}
+
+/* ---------------------------------------Navigationbar style-------------------------- */
+.navbar{
+  background-color: rgb(0, 0, 0);
+  
+}
+
+.navbar a {
+  float: left;
+  padding: 2px 1px;
+  text-decoration: none;
+  font-size: 37px;
+  padding-left: 220px;
+  
+}
+
+.navbar a.green {
+  background-color: green;
+  color: red;
+}
+
+.navbar a.red{
+  background-color:red;
+  color: green;
+}
+
+.loggan{
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+
+/*----------------------------- Style för Apply sidan-------------------------- */
+
+.bodyapply{
+    background-color: black;
+    background-image: url(imgbag.png);
+    margin: auto;
+  }
+  
+  .bodyapply td {
+      color: red;
+  }
+  .bodyapply h3{
+      color: red;
+  }
+  .bodyapply h4{
+    color: red;
+  }
+  .bodyapply p{
+        color: red;
+    }
+
+    .applytable{
+  width: 1250px;
+  height: 800px;
+  font-size: 20px;
+  }
+
+  table, th, td {
+    border: 1px solid red;
+    font-size: 20px;
+  }
+  
+  td{
+  font-size: 17px;
+}
+.submit{
+  margin: 15px 385px;
+  background-color: red;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s, ease 0s;
+  width: 1100px;
+  height: 100px;
+  font-size: 50px;
+}
